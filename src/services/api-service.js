@@ -59,8 +59,8 @@ function convertMethodName(method) {
 
 
 export default class ApiService {
-    // _apiBaseUrl = 'http://77.223.106.195:70/api/'
-    _apiBaseUrl = 'http://127.0.0.1:8000/api/'
+    _apiBaseUrl = 'http://77.223.106.194:70/api/'
+    // _apiBaseUrl = 'http://127.0.0.1:8000/api/'
 
     async _getResponse(method, params) {
         const fullUrl = new URL(`${this._apiBaseUrl}${method}`)
